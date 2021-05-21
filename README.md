@@ -18,7 +18,7 @@ Hierarchy for Hyperspectral Image Classification](https://ieeexplore.ieee.org/do
 
 ![image2](https://i.stack.imgur.com/Akjg9.png)
 
-As hyperspectral images have extreamly high dimensionality, we have used PCA to reduce number of "color channels" to 30. Such preprocessed data was shuffled, batched and splitted into train, validation and test sets. For experiment tracking we have used [Netune](https://neptune.ai/). In the first experiment our Pytorch model achived accuracy score of 0.94 on the test set. 
+As hyperspectral images have extreamly high dimensionality, we have used PCA to reduce number of "color channels" to 30. Such preprocessed data was shuffled, batched and splitted into train, validation and test sets. For experiment tracking we have used [Neptune](https://neptune.ai/). In the first experiment our Pytorch model achived accuracy score of 0.94 on the test set. 
 
 
 ## ToDo
